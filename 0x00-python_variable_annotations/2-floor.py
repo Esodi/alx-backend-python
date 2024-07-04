@@ -7,4 +7,4 @@ import math
 
 def floor(n: float) -> int:
     ''' floor function '''
-    return math.floor(3.14)
+    return math.floor(n)
