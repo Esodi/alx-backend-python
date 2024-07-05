@@ -7,4 +7,4 @@ from typing import Union, Tuple
 
 def to_kv(k: str, v: float) -> Tuple[str, float]:
     ''' function itself '''
-    return (k, v**2)
+    return (k, float(v**2))
