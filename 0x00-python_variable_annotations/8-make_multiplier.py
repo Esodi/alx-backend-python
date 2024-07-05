@@ -8,5 +8,5 @@ from typing import Callable
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     ''' function itself '''
     def func(multiplier: float) -> float:
-        return multiplier ** 2
+        return multiplier * multiplier
     return func
