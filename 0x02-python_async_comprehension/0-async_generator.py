@@ -10,6 +10,6 @@ import random
 async def async_generator() -> AsyncGenerator[float, None]:
     ''' the function itself '''
     for i in range(10):
-        await asyncio.sleep(1)
         rand = random.uniform(0, 10)
+        await asyncio.sleep(1)
         yield rand
